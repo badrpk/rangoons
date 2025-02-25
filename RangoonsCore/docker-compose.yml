@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  huobz_ai:
+    build: ./modules/AI/HuobzAI
+    ports:
+      - '8001:8000'
+  huobz_dashboard:
+    build: ./modules/Governance/CentralizedDashboard
+    ports:
+      - '8000:8000'

@@ -1,0 +1,25 @@
+name: Run HuobzEdge AI Fraud Detection
+
+on: [push, workflow_dispatch]
+
+jobs:
+  run-ai:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y redis-server
+          pip3 install flask tensorflow keras numpy pandas scikit-learn celery gunicorn joblib
+
+      - name: Start Redis
+        run: |
+          sudo systemctl start redis
+          redis-cli ping
+
+      - name: Run AI Fraud Detection API
+        run: |
+          nohup python3 huobz/ai/huobzedge_fraud_api.py &

@@ -1,0 +1,24 @@
+# Enhanced CPU resource sharing logic
+def allocate_cpu(requested_cores):
+    available_cores = get_available_cores()
+    if requested_cores <= available_cores:
+        allocate(requested_cores)
+        return f"{requested_cores} CPU cores allocated"
+    else:
+        return "Insufficient CPU resources"
+
+def deallocate_cpu(allocated_cores):
+    deallocate(allocated_cores)
+    return f"{allocated_cores} CPU cores deallocated"
+
+def get_available_cores():
+    # Logic to get the number of available CPU cores
+    pass
+
+def allocate(cores):
+    # Logic to allocate CPU cores
+    pass
+
+def deallocate(cores):
+    # Logic to deallocate CPU cores
+    pass

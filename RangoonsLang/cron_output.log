@@ -1,0 +1,351 @@
+warning: Empty last update token.
+warning: Empty last update token.
+[main 5e7df1f] Auto-update: 2025-02-04 14:03:21
+ 4 files changed, 75 insertions(+), 2 deletions(-)
+ create mode 100644 core_features/device_interaction.huobz
+ create mode 100644 core_features/tests/test_device_interaction.py
+ create mode 100644 cron_output.log
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main b740339] Auto-update: 2025-02-04 15:00:01
+ 30 files changed, 699 insertions(+), 6 deletions(-)
+ create mode 100644 core_features/__pycache__/compiler.cpython-310.pyc
+ create mode 100644 core_features/ai_integration.huobz
+ create mode 100644 core_features/assembler.py
+ create mode 100644 core_features/assembly_instructions.huobz
+ create mode 100644 core_features/blockchain_integration.huobz
+ create mode 100755 core_features/compiler.py
+ create mode 100644 core_features/emulator.py
+ create mode 100644 core_features/high_level_constructs.huobz
+ create mode 100644 core_features/instruction_set.huobz
+ create mode 100644 core_features/isa_definition.md
+ create mode 100644 core_features/machine_language/assembler.py
+ create mode 100644 core_features/machine_language/emulator.py
+ create mode 100644 core_features/machine_language/instruction_set.huobz
+ create mode 100644 core_features/machine_language/test_extended_instructions.py
+ create mode 100644 core_features/quantum_integration.huobz
+ create mode 100644 core_features/test_assembler.py
+ create mode 100644 core_features/test_compiler.py
+ create mode 100644 core_features/test_emulator.py
+ create mode 100644 core_features/test_high_level_constructs.py
+ create mode 100644 core_features/tests/test_ai_integration.py
+ create mode 100644 core_features/tests/test_assembly_instructions.py
+ create mode 100644 core_features/tests/test_blockchain_integration.py
+ create mode 100644 core_features/tests/test_extended_instructions.py
+ create mode 100644 core_features/tests/test_huobzlang_syntax.py
+ create mode 100644 core_features/tests/test_quantum_integration.py
+ create mode 100644 cron_debug.log
+ create mode 100644 huobzlang_syntax.huobz
+ create mode 100644 tests/test_high_level_constructs.py
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 702e431] Auto-update: 2025-02-04 17:00:43
+ 8 files changed, 187 insertions(+), 19 deletions(-)
+ rewrite core_features/__pycache__/compiler.cpython-310.pyc (93%)
+ create mode 100644 core_features/__pycache__/emulator.cpython-310.pyc
+ create mode 100644 tests/test_emulator.py
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main b0933e0] Auto-update: 2025-02-04 18:00:01
+ 5 files changed, 142 insertions(+), 93 deletions(-)
+ create mode 100644 core_features/.emulator.py.swp
+ rewrite core_features/__pycache__/emulator.cpython-310.pyc (97%)
+ rewrite core_features/emulator.py (87%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 43d0170] Auto-update: 2025-02-04 19:00:35
+ 11 files changed, 248 insertions(+), 197 deletions(-)
+ delete mode 100644 core_features/.emulator.py.swp
+ create mode 100644 core_features/__init__.py
+ create mode 100644 core_features/__pycache__/__init__.cpython-310.pyc
+ rewrite core_features/__pycache__/emulator.cpython-310.pyc (99%)
+ rewrite core_features/emulator.py (99%)
+ create mode 100644 test_emulator.py
+ create mode 100644 tests/__pycache__/test_emulator.cpython-310.pyc
+ create mode 100644 tests/__pycache__/test_high_level_constructs.cpython-310.pyc
+ rewrite tests/test_emulator.py (84%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 72ce41c] Auto-update: 2025-02-04 20:00:01
+ 3 files changed, 149 insertions(+), 66 deletions(-)
+ rewrite core_features/emulator.py (99%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 93f67e3] Auto-update: 2025-02-04 21:00:02
+ 2 files changed, 137 insertions(+), 129 deletions(-)
+ rewrite core_features/emulator.py (64%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main df6341f] Auto-update: 2025-02-04 22:00:25
+ 7 files changed, 118 insertions(+), 84 deletions(-)
+ create mode 100644 .README.md.swp
+ rewrite core_features/__pycache__/emulator.cpython-310.pyc (99%)
+ create mode 100644 core_features/__pycache__/test_high_level_constructs.cpython-310.pyc
+ rewrite tests/__pycache__/test_emulator.cpython-310.pyc (94%)
+ rewrite tests/test_emulator.py (67%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main b63cab8] Auto-update: 2025-02-04 23:00:01
+ 2 files changed, 10 insertions(+), 15 deletions(-)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 78b5d05] Auto-update: 2025-02-05 05:00:36
+ 1 file changed, 1 insertion(+)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main ae8f540] Auto-update: 2025-02-05 07:00:01
+ 6 files changed, 178 insertions(+), 123 deletions(-)
+ create mode 100644 core_features/.emulator.py.swp
+ rewrite core_features/compiler.py (91%)
+ rewrite core_features/emulator.py (86%)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 0971962] Auto-update: 2025-02-05 08:00:11
+ 9 files changed, 162 insertions(+), 118 deletions(-)
+ delete mode 100644 core_features/.emulator.py.swp
+ rewrite core_features/emulator.py (72%)
+ create mode 100644 core_features/gpu_execution.py
+ create mode 100644 core_features/imstruction_set.py
+ create mode 100644 core_features/memory.py
+ create mode 100644 examples/gpu_example.hl
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+[main 2873e69] Auto-update: 2025-02-05 09:00:02
+ 10 files changed, 77 insertions(+), 12 deletions(-)
+ create mode 100644 core_features/__pycache__/gpu_execution.cpython-310.pyc
+ create mode 100644 core_features/__pycache__/instruction_set.cpython-310.pyc
+ create mode 100644 core_features/__pycache__/memory.cpython-310.pyc
+ rename core_features/{imstruction_set.py => instruction_set.py} (100%)
+ create mode 100644 examples/gpu_example.mc
+ create mode 100644 examples/new_test.hl
+ create mode 100644 examples/new_test.mc
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: adding embedded git repository: HuobzLang
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> HuobzLang
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached HuobzLang
+hint: 
+hint: See "git help submodule" for more information.
+warning: Empty last update token.
+[main b3c5e82] Auto-update: 2025-02-05 10:01:44
+ 3 files changed, 2 insertions(+)
+ create mode 100644 .README.md.swp
+ create mode 160000 HuobzLang
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main d2af004] Auto-update: 2025-02-05 12:00:53
+ 7 files changed, 200 insertions(+), 264 deletions(-)
+ delete mode 100644 .README.md.swp
+ rewrite README.md (98%)
+ rewrite core_features/emulator.py (93%)
+ create mode 100644 examples/gpu_test.hl
+ create mode 100644 examples/gpu_test.mc
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main 7708c25] Auto-update: 2025-02-05 13:00:01
+ 3 files changed, 44 insertions(+), 21 deletions(-)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main 57ceefd] Auto-update: 2025-02-05 14:00:01
+ 5 files changed, 80 insertions(+), 33 deletions(-)
+ create mode 100644 core_features/.emulator.py.swp
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main f434d28] Auto-update: 2025-02-05 15:00:01
+ 4 files changed, 47 insertions(+), 42 deletions(-)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main 6bf31fe] Auto-update: 2025-02-06 06:00:53
+ 5 files changed, 66 insertions(+), 27 deletions(-)
+ delete mode 100644 core_features/.emulator.py.swp
+ create mode 100644 core_features/arm2riscv.py
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main a5298db] Auto-update: 2025-02-06 07:00:01
+ 6 files changed, 90 insertions(+), 31 deletions(-)
+ create mode 100644 core_features/__pycache__/arm2riscv.cpython-310.pyc
+ create mode 100644 core_features/arm_test.s
+ create mode 100644 examples/arm_test.s
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+[main 5373739] Auto-update: 2025-02-06 17:00:02
+ 1 file changed, 3 insertions(+)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!
+warning: Empty last update token.
+warning: Empty last update token.
+warning: Empty last update token.
+warning: adding embedded git repository: huobz
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> huobz
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached huobz
+hint: 
+hint: See "git help submodule" for more information.
+warning: Empty last update token.
+[main f5dbc06] Auto-update: 2025-02-06 20:00:02
+ 13 files changed, 314 insertions(+)
+ create mode 160000 huobz
+ create mode 100644 src/hal/Makefile
+ create mode 100644 src/hal/example.hal
+ create mode 100755 src/hal/hal_assembler
+ create mode 100644 src/hal/hal_assembler.cpp
+ create mode 100755 src/hal/hal_vm
+ create mode 100644 src/hal/hal_vm.cpp
+ create mode 100644 src/hal/output.bin
+ create mode 100644 src/hml/Makefile
+ create mode 100644 src/hml/hml_assembler.cpp
+ create mode 100644 src/hml/hml_vm.cpp
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+✅ HuobzLang repository updated successfully!

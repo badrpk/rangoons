@@ -1,0 +1,6 @@
+cat > ~/huobz/dashboard/views.py <<EOF
+from django.http import JsonResponse
+
+def index(request):
+    return JsonResponse({'message': 'Welcome to the Dashboard!'})
+EOF

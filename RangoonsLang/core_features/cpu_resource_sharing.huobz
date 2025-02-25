@@ -1,0 +1,39 @@
+# Example code for CPU resource sharing
+def allocate_cpu():
+    # Code to allocate CPU resources
+    pass
+
+def deallocate_cpu():
+    # Code to deallocate CPU resources
+    pass
+
+# Enhanced CPU resource sharing with error handling
+def allocate_cpu(requested_cores):
+    try:
+        available_cores = get_available_cores()
+        if requested_cores <= available_cores:
+            allocate(requested_cores)
+            return f"{requested_cores} CPU cores allocated"
+        else:
+            raise ValueError("Insufficient CPU resources")
+    except Exception as e:
+        return str(e)
+
+def deallocate_cpu(allocated_cores):
+    try:
+        deallocate(allocated_cores)
+        return f"{allocated_cores} CPU cores deallocated"
+    except Exception as e:
+        return str(e)
+
+def get_available_cores():
+    # Logic to get the number of available CPU cores
+    pass
+
+def allocate(cores):
+    # Logic to allocate CPU cores
+    pass
+
+def deallocate(cores):
+    # Logic to deallocate CPU cores
+    pass

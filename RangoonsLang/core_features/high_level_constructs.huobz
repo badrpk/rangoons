@@ -1,0 +1,38 @@
+# High-Level Constructs for HuobzLang
+
+def switch_case(value, cases):
+    for case_value, case_block in cases.items():
+        if value == case_value:
+            case_block()
+            break
+
+def if_else(condition, then_block, else_block):
+    if condition:
+        then_block()
+    else:
+        else_block()
+
+def while_loop(condition, body):
+    while condition:
+        body()
+
+def for_loop(init, condition, increment, body):
+    init()
+    while condition():
+        body()
+        increment()
+
+def try_catch(try_block, catch_block):
+    try:
+        try_block()
+    except Exception as e:
+        catch_block(e)
+
+def define_function(name, params, body):
+    functions[name] = (params, body)
+
+def call_function(name, args):
+    params, body = functions[name]
+    for param, arg in zip(params, args):
+        locals()[param] = arg
+    body()

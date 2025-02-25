@@ -1,0 +1,3 @@
+[submodule "documenso"]
+	path = documenso
+	url = git@github.com:yourusername/documenso.git

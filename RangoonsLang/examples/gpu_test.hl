@@ -1,0 +1,8 @@
+# GPU Vector Addition Test
+KERNEL VECTOR_ADD
+
+LOAD R1, [1, 2, 3, 4]     # Load vector into R1
+LOAD R2, [10, 20, 30, 40] # Load another vector into R2
+VECTOR_ADD R3, R1, R2     # Perform parallel addition
+PRINT R3                  # Output result
+HALT

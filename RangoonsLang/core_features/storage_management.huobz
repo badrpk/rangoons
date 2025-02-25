@@ -1,0 +1,24 @@
+# Storage management logic
+def allocate_storage(requested_storage):
+    available_storage = get_available_storage()
+    if requested_storage <= available_storage:
+        allocate(requested_storage)
+        return f"{requested_storage} units of storage allocated"
+    else:
+        return "Insufficient storage resources"
+
+def deallocate_storage(allocated_storage):
+    deallocate(allocated_storage)
+    return f"{allocated_storage} units of storage deallocated"
+
+def get_available_storage():
+    # Logic to get the amount of available storage
+    pass
+
+def allocate(storage):
+    # Logic to allocate storage
+    pass
+
+def deallocate(storage):
+    # Logic to deallocate storage
+    pass

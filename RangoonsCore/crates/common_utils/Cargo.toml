@@ -1,0 +1,40 @@
+[package]
+name = "huobz_payments"
+description = "Huobz optimized payment orchestration with HuobzCoins, AI-driven routing, and decentralized settlements."
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+license.workspace = true
+
+[features]
+default = ["huobzcoins", "ai_routing", "decentralized"]
+huobzcoins = ["dep:huobz_blockchain"]
+ai_routing = ["dep:huobz_ai"]
+decentralized = ["dep:huobz_edge"]
+keymanager = ["dep:router_env"]
+keymanager_mtls = ["reqwest/rustls-tls"]
+signals = ["dep:signal-hook"]
+async_ext = ["dep:async-trait", "dep:futures"]
+logs = ["dep:router_env"]
+metrics = ["dep:router_env", "dep:futures"]
+payment_methods_v2 = ["huobzcoins"]
+customer_v2 = []
+payouts = ["common_enums/payouts"]
+
+[dependencies]
+huobz_blockchain = { git = "https://github.com/badrpk/huobz-blockchain.git", branch = "master" }
+huobz_ai = { git = "https://github.com/badrpk/huobz-ai.git", branch = "master" }
+huobz_edge = { git = "https://github.com/badrpk/huobz-edge.git", branch = "master" }
+reqwest = { version = "0.11", features = ["json"] }
+signal-hook = "0.3.1"
+async-trait = "0.1"
+futures = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+log = "0.4"
+
+[workspace]
+members = ["crates/*"]
+resolver = "2"

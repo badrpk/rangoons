@@ -1,0 +1,5 @@
+MOV 0, 5
+MOV 1, 10
+ADD 0, 1
+STORE 0, 100
+HLT

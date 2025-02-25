@@ -1,0 +1,24 @@
+# GPU resource sharing logic
+def allocate_gpu(requested_gpus):
+    available_gpus = get_available_gpus()
+    if requested_gpus <= available_gpus:
+        allocate(requested_gpus)
+        return f"{requested_gpus} GPU units allocated"
+    else:
+        return "Insufficient GPU resources"
+
+def deallocate_gpu(allocated_gpus):
+    deallocate(allocated_gpus)
+    return f"{allocated_gpus} GPU units deallocated"
+
+def get_available_gpus():
+    # Logic to get the number of available GPU units
+    pass
+
+def allocate(gpus):
+    # Logic to allocate GPU units
+    pass
+
+def deallocate(gpus):
+    # Logic to deallocate GPU units
+    pass

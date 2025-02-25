@@ -1,0 +1,23 @@
+INSTRUCTION_SET = {
+    "HALT": "1110",
+    "LOAD": "0000",
+    "PRINT": "0001",
+    "ADD": "0010",
+    "SUBTRACT": "0011",
+    "MULTIPLY": "0100",
+    "JUMP": "0101",
+    "JUMP_IF_ZERO": "0110",
+    "JUMP_IF_NOT_ZERO": "0111",
+    "STORE": "1000",
+    "LOAD_MEM": "1001",
+    "CALL": "1010",
+    "RETURN": "1011",
+    "KERNEL": "1100",
+    "THREAD_ID": "1101",
+    "BLOCK_ID": "1111",
+    "SYNC": "111000",
+    "VECTOR_ADD": "111001",
+    "VECTOR_MULTIPLY": "111010",
+    "SHARED_STORE": "111011",
+    "SHARED_LOAD": "111100"
+}

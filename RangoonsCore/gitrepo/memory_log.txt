@@ -1,0 +1,3 @@
+[Memory Log] Start of Program: 1644 KB
+[Memory Log] After Allocation: 1644 KB
+[Memory Log] After Deallocation: 2812 KB

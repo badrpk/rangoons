@@ -1,0 +1,4 @@
+echo 'export OPENSSL_DIR=/usr' >> ~/.bashrc
+echo 'export OPENSSL_LIB_DIR=/usr/lib' >> ~/.bashrc
+echo 'export OPENSSL_INCLUDE_DIR=/usr/include' >> ~/.bashrc
+source ~/.bashrc

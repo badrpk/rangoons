@@ -1,0 +1,8 @@
+git@github.com:badrpk/cast.git
+git@github.com:badrpk/darulsakina.git
+git@github.com:badrpk/huobz.git
+git@github.com:badrpk/HuobzAl.git
+git@github.com:badrpk/HuobzLang.git
+git@github.com:badrpk/nifdu.git
+git@github.com:badrpk/vps-pk.git
+git@github.com:badrpk/xerus.git

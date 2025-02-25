@@ -1,0 +1,8 @@
+# HuobzLang Machine Language Instruction Set
+
+instruction_set = {
+    "LOAD": "0001",
+    "STORE": "0010",
+    "ADD": "0011",
+    "JUMP": "0100"
+}

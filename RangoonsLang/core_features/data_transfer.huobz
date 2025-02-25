@@ -1,0 +1,9 @@
+# Data transfer logic
+def send_data(device, data):
+    # Logic to send data to another device
+    return f"Data sent to {device}"
+
+def receive_data(device):
+    # Logic to receive data from another device
+    received_data = "Sample data from " + device
+    return received_data

@@ -1,0 +1,6 @@
+MOV 0,
+MOV 1,
+JZ 0, 5
+SUB 0,
+JMP loop
+HLT 

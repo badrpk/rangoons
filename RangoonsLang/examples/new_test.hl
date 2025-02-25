@@ -1,0 +1,6 @@
+# Test program for HuobzLang
+LOAD R1, 5          # Load 5 into R1
+LOAD R2, 10         # Load 10 into R2
+ADD R3, R1, R2      # Add R1 and R2, store in R3
+PRINT R3            # Print result
+HALT

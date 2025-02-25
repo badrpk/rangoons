@@ -1,0 +1,16 @@
+# GPU Kernel for Vector Addition
+KERNEL VECTOR_ADD
+
+LOAD R1, THREAD_ID     # Load thread index into R1
+LOAD_MEM R2, R1        # Load value from input array at index R1
+ADD R2, R2, 10         # Add 10 to the value
+STORE R1, R2           # Store result at index R1
+RETURN
+
+# Main Program (CPU Execution)
+LOAD R1, 0            # Initialize index to 0
+LOOP:
+CALL VECTOR_ADD       # Call GPU kernel
+ADD R1, R1, 1         # Increment index
+JUMP_IF_NOT_ZERO R1, LOOP  # Loop until all elements processed
+HALT
