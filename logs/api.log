@@ -1,11 +1,24 @@
 nohup: ignoring input
-INFO:     Started server process [9597]
+INFO:     Will watch for changes in these directories: ['/home/userland/rangoons']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3047] using StatReload
+INFO:     Started server process [3050]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     192.168.18.60:46642 - "GET / HTTP/1.1" 200 OK
-INFO:     192.168.18.60:46642 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [9597]
+INFO:     192.168.18.60:47894 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47900 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47906 - "GET /rides HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47916 - "GET /maps HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47922 - "GET /edge HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47942 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.18.60:47934 - "GET /loadbalance HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37816 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37830 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37840 - "GET /rides HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37842 - "GET /maps HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37852 - "GET /edge HTTP/1.1" 200 OK
+INFO:     192.168.18.60:49006 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.18.22:37864 - "GET /loadbalance HTTP/1.1" 200 OK
+INFO:     192.168.18.60:40018 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.18.60:53572 - "GET /maps HTTP/1.1" 200 OK
+INFO:     192.168.18.60:53572 - "GET /maps HTTP/1.1" 200 OK
