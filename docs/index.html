@@ -1,1 +1,17 @@
-<h1>Rangoons is Live!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rangoons</title>
+    <script>
+        async function fetchAPI() {
+            let response = await fetch('http://192.168.18.60:8000');
+            let data = await response.json();
+            document.getElementById('api-output').innerText = data.message;
+        }
+    </script>
+</head>
+<body onload="fetchAPI()">
+    <h1>Welcome to Rangoons</h1>
+    <p>API Status: <span id="api-output">Loading...</span></p>
+</body>
+</html>
