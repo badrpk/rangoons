@@ -5,6 +5,7 @@ const http = require("http");
 const { URL } = require("url");
 const crypto = require("crypto");
 const pay = require("./payments");
+const auth = require("./auth");
 const PORT = process.env.PORT || 8795;
 const uid = (p) => `${p}_${crypto.randomBytes(4).toString("hex")}`;
 const iso = () => new Date().toISOString();
@@ -30,12 +31,23 @@ function body(req) {
 http.createServer(async (req, res) => {
   const u = new URL(req.url, `http://127.0.0.1:${PORT}`);
   const p = u.pathname.replace(/\/$/, "") || "/";
+  // AUTH_ROUTER_V1
+  if (typeof p === "string" && (p === "/auth" || p.startsWith("/auth/"))) {
+    let bodyObj = {};
+    if (req.method === "POST" || req.method === "PUT" || req.method === "PATCH") {
+      bodyObj = await new Promise((resolve) => {
+        let d = ""; req.on("data", c => d += c); req.on("end", () => { try { resolve(JSON.parse(d || "{}")); } catch { resolve({}); } });
+      });
+    }
+    const result = await auth.handleAuth(req.method, p, bodyObj, req.headers, "rangoons");
+    return json(res, result.status, result.body);
+  }
   if (p === "/" || p === "/health") {
     return json(res, 200, { ok: true, service: "rangoons", version: "3.0.0",
       gaps_closed: ["shipping_rates", "abandoned_cart", "subscription_plans", "stripe_multi_rail", "undercut"] });
   }
   if (p === "/capabilities") return json(res, 200, { ok: true, competitor: "WA Business + Shopify",
-    features: ["catalog","inventory","cart","checkout","wa_webhook","shipping","abandoned","plans","stripe","jazzcash"] });
+    features: ["catalog","inventory","cart","checkout","wa_webhook","shipping","abandoned","plans","stripe", "signup", "login", "otp", "oauth_google", "oauth_facebook","jazzcash"] });
   if (p === "/pricing") return json(res, 200, { ok: true, ...pay.pricing("rangoons") });
   if (p === "/payments/rails") return json(res, 200, { ok: true, rails: pay.RAILS });
   if (p === "/gap-analysis") return json(res, 200, { ok: true, added: ["shipping", "abandoned cart recovery", "plans $9.99 vs Shopify $29", "stripe"] });
