@@ -1,1 +1,1 @@
-{"name":"rangoons-commerce-api","version":"2.0.0","scripts":{"start":"node server.js"}}
+{"name":"rangoons-commerce-api","version":"3.0.0","scripts":{"start":"node server.js"}}
